@@ -1,0 +1,70 @@
+<!-- Auto-generated country pages -->
+<!-- Albania -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Albania – My Travels</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Montserrat', sans-serif; background: #fafafa; margin: 0; padding: 2rem; }
+    header { text-align: center; margin-bottom: 2rem; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    .flag { width: 60px; height: auto; display: block; margin: 0 auto 1rem; }
+    .content { max-width: 800px; margin: 0 auto; background: #fff; padding: 2rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 2rem; }
+    .gallery img { width: 100%; border-radius: 6px; object-fit: cover; }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="flag" src="https://flagcdn.com/w80/al.png" alt="Albania Flag">
+    <h1>Albania</h1>
+    <p>Visited in 1999–2025</p>
+  </header>
+  <div class="content">
+    <p>This page documents highlights from my trip to Albania. Photos, memories, and reflections from my journey will appear here soon.</p>
+    <div class="gallery">
+      <img src="/media/albania_1.jpg" alt="Albania photo 1">
+      <img src="/media/albania_2.jpg" alt="Albania photo 2">
+      <img src="/media/albania_3.jpg" alt="Albania photo 3">
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- Andorra -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andorra – My Travels</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Montserrat', sans-serif; background: #fafafa; margin: 0; padding: 2rem; }
+    header { text-align: center; margin-bottom: 2rem; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    .flag { width: 60px; height: auto; display: block; margin: 0 auto 1rem; }
+    .content { max-width: 800px; margin: 0 auto; background: #fff; padding: 2rem; border-radius: 10px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 2rem; }
+    .gallery img { width: 100%; border-radius: 6px; object-fit: cover; }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="flag" src="https://flagcdn.com/w80/ad.png" alt="Andorra Flag">
+    <h1>Andorra</h1>
+    <p>Visited in 1999–2025</p>
+  </header>
+  <div class="content">
+    <p>This page documents highlights from my trip to Andorra. Photos, memories, and reflections from my journey will appear here soon.</p>
+    <div class="gallery">
+      <img src="/media/andorra_1.jpg" alt="Andorra photo 1">
+      <img src="/media/andorra_2.jpg" alt="Andorra photo 2">
+      <img src="/media/andorra_3.jpg" alt="Andorra photo 3">
+    </div>
+  </div>
+</body>
+</html>
