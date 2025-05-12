@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Europe 1999–2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    .navbar a {
+      text-decoration: none;
+      color: #333;
+      margin-left: 1.5rem;
+      font-weight: 500;
+    }
+    .header {
+      margin-top: 80px;
+      position: relative;
+      background: url('your-minimalist-map-image.jpg') no-repeat center center/cover;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-left: 3rem;
+      color: #333;
+    }
+    .header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 1rem 2rem;
+      border-radius: 8px;
+    }
+    .cta-button {
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      border: 2px solid #333;
+      background-color: transparent;
+      color: #333;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #333;
+      color: #fff;
+    }
+    .countries-section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    .countries-section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .country-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      list-style: none;
+      padding: 0;
+    }
+    .country-list li {
+      background: #fff;
+      padding: 0.75rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+      text-align: center;
+      font-weight: 500;
+      transition: transform 0.2s ease, background-color 0.2s ease;
+    }
+    .country-list li:hover {
+      background-color: #f0f0f0;
+      transform: translateY(-3px);
+    }
+    .country-list a {
+      color: #333;
+      text-decoration: none;
+      display: block;
+    }
+    .country-flag {
+      width: 32px;
+      height: 20px;
+      object-fit: cover;
+      display: block;
+      margin: 0 auto 0.5rem;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">My Travels</div>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#countries">Countries</a>
+      <a href="#about">About Me</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="header">
+    <div>
+      <h1>Europe 1999–2025</h1>
+      <button class="cta-button">Explore My Journey</button>
+    </div>
+  </header>
+
+  <section id="countries" class="countries-section">
+    <h2>Countries Visited</h2>
+    <ul class="country-list">
+      <li><a href="/countries/albania.html"><img class="country-flag" src="https://flagcdn.com/w40/al.png" alt="Albania">Albania</a></li>
+      <li><a href="/countries/andorra.html"><img class="country-flag" src="https://flagcdn.com/w40/ad.png" alt="Andorra">Andorra</a></li>
+      <li><a href="/countries/armenia.html"><img class="country-flag" src="https://flagcdn.com/w40/am.png" alt="Armenia">Armenia</a></li>
+      <li><a href="/countries/austria.html"><img class="country-flag" src="https://flagcdn.com/w40/at.png" alt="Austria">Austria</a></li>
+      <li><a href="/countries/belgium.html"><img class="country-flag" src="https://flagcdn.com/w40/be.png" alt="Belgium">Belgium</a></li>
+      <li><a href="/countries/bosnia.html"><img class="country-flag" src="https://flagcdn.com/w40/ba.png" alt="Bosnia and Herzegovina">Bosnia</a></li>
+      <li><a href="/countries/bulgaria.html"><img class="country-flag" src="https://flagcdn.com/w40/bg.png" alt="Bulgaria">Bulgaria</a></li>
+      <li><a href="/countries/croatia.html"><img class="country-flag" src="https://flagcdn.com/w40/hr.png" alt="Croatia">Croatia</a></li>
+      <li><a href="/countries/czech-republic.html"><img class="country-flag" src="https://flagcdn.com/w40/cz.png" alt="Czech Republic">Czech Republic</a></li>
+      <li><a href="/countries/denmark.html"><img class="country-flag" src="https://flagcdn.com/w40/dk.png" alt="Denmark">Denmark</a></li>
+      <li><a href="/countries/estonia.html"><img class="country-flag" src="https://flagcdn.com/w40/ee.png" alt="Estonia">Estonia</a></li>
+      <li><a href="/countries/finland.html"><img class="country-flag" src="https://flagcdn.com/w40/fi.png" alt="Finland">Finland</a></li>
+      <li><a href="/countries/france.html"><img class="country-flag" src="https://flagcdn.com/w40/fr.png" alt="France">France</a></li>
+      <li><a href="/countries/georgia.html"><img class="country-flag" src="https://flagcdn.com/w40/ge.png" alt="Georgia">Georgia</a></li>
+      <li><a href="/countries/germany.html"><img class="country-flag" src="https://flagcdn.com/w40/de.png" alt="Germany">Germany</a></li>
+      <li><a href="/countries/greece.html"><img class="country-flag" src="https://flagcdn.com/w40/gr.png" alt="Greece">Greece</a></li>
+      <li><a href="/countries/hungary.html"><img class="country-flag" src="https://flagcdn.com/w40/hu.png" alt="Hungary">Hungary</a></li>
+      <li><a href="/countries/iceland.html"><img class="country-flag" src="https://flagcdn.com/w40/is.png" alt="Iceland">Iceland</a></li>
+      <li><a href="/countries/ireland.html"><img class="country-flag" src="https://flagcdn.com/w40/ie.png" alt="Ireland">Ireland</a></li>
+      <li><a href="/countries/italy.html"><img class="country-flag" src="https://flagcdn.com/w40/it.png" alt="Italy">Italy</a></li>
+      <li><a href="/countries/latvia.html"><img class="country-flag" src="https://flagcdn.com/w40/lv.png" alt="Latvia">Latvia</a></li>
+      <li><a href="/countries/lithuania.html"><img class="country-flag" src="https://flagcdn.com/w40/lt.png" alt="Lithuania">Lithuania</a></li>
+      <li><a href="/countries/luxembourg.html"><img class="country-flag" src="https://flagcdn.com/w40/lu.png" alt="Luxembourg">Luxembourg</a></li>
+      <li><a href="/countries/montenegro.html"><img class="country-flag" src="https://flagcdn.com/w40/me.png" alt="Montenegro">Montenegro</a></li>
+      <li><a href="/countries/netherlands.html"><img class="country-flag" src="https://flagcdn.com/w40/nl.png" alt="Netherlands">Netherlands</a></li>
+      <li><a href="/countries/norway.html"><img class="country-flag" src="https://flagcdn.com/w40/no.png" alt="Norway">Norway</a></li>
+      <li><a href="/countries/poland.html"><img class="country-flag" src="https://flagcdn.com/w40/pl.png" alt="Poland">Poland</a></li>
+      <li><a href="/countries/portugal.html"><img class="country-flag" src="https://flagcdn.com/w40/pt.png" alt="Portugal">Portugal</a></li>
+      <li><a href="/countries/romania.html"><img class="country-flag" src="https://flagcdn.com/w40/ro.png" alt="Romania">Romania</a></li>
+      <li><a href="/countries/serbia.html"><img class="country-flag" src="https://flagcdn.com/w40/rs.png" alt="Serbia">Serbia</a></li>
+      <li><a href="/countries/slovakia.html"><img class="country-flag" src="https://flagcdn.com/w40/sk.png" alt="Slovakia">Slovakia</a></li>
+      <li><a href="/countries/slovenia.html"><img class="country-flag" src="https://flagcdn.com/w40/si.png" alt="Slovenia">Slovenia</a></li>
+      <li><a href="/countries/spain.html"><img class="country-flag" src="https://flagcdn.com/w40/es.png" alt="Spain">Spain</a></li>
+      <li><a href="/countries/sweden.html"><img class="country-flag" src="https://flagcdn.com/w40/se.png" alt="Sweden">Sweden</a></li>
+      <li><a href="/countries/switzerland.html"><img class="country-flag" src="https://flagcdn.com/w40/ch.png" alt="Switzerland">Switzerland</a></li>
+      <li><a href="/countries/turkey.html"><img class="country-flag" src="https://flagcdn.com/w40/tr.png" alt="Turkey">Turkey</a></li>
+      <li><a href="/countries/united-kingdom.html"><img class="country-flag" src="https://flagcdn.com/w40/gb.png" alt="United Kingdom">United Kingdom</a></li>
+    </ul>
+  </section>
+</body>
+</html>
